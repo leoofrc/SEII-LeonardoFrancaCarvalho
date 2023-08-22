@@ -1,0 +1,63 @@
+1 /*
+2 * Listing 3.1
+3 * hello.c – Canonical “Hello, world!” program 4 4 */
+5 #include <stdio.h>
+6
+7 int main(void)
+8 {
+9 fprintf(stdout, “Hello, Linux programming world!\n”);
+10 return 0;
+11 }
+
+
+
+
+
+1 /*
+2 * Listing 3.2
+3 * pedant.c - use -ansi, -pedantic or -pedantic-errors
+4 */
+5 #include <stdio.h>
+6
+7 void main(void)
+8 {
+9 long long int i = 0l;
+10 fprintf(stdout, “This is a non-conforming C program\n”);
+11 }
+
+
+
+No terminal: 
+$ gcc -g hello.c -o hello_g
+$ ls -l hello_g
+-rwxr-xr-x 1 kwall users 6809 Jan 12 15:09 hello_g*
+$ gcc -ggdb hello.c -o hello_ggdb
+$ ls -l hello_ggdb
+-rwxr-xr-x 1 kwall users 354867 Jan 12 15:09
+hello_ggdb*
+
+
+switch(int_var) {
+case 0 ... 2:
+/* your code here */
+break;
+case 3 ... 5:
+/* more code here */
+break;
+default:
+/* default code here */
+}
+
+switch(int_var) {
+case 1:
+case 2:
+/* your code here */
+break;
+case 3:
+case 4:
+case 5:
+/* more code here */
+break;
+default:
+/* default code here */
+}
