@@ -26,3 +26,7 @@ Montar um robo que precisa ser:
 - Gravar o firmware da ESP32 com o IP escolhido (alterado no espcode/espRemoteCamera/main.cpp);
 - Alterar o IP no qual o frontend faz requisição para a ESP32 (que controla os motores) no arquivo ./frontend/src/utils/constants.ts (colocar o ip da esp aqui);
 - Alterar o IP que armazena os frames da camera (aqui coloque o mesmo IP do dispositivo que está rodando o docker-compose) no caminho ./frontend/src/pages/index.tsx (linha 172).
+
+![Imagem Carrinho](https://i.pinimg.com/originals/70/07/b7/7007b7b5e310b282794d676001846c2c.png)
+
+![Imagem Carrinho](https://i.pinimg.com/originals/e5/42/e0/e542e04aec41e0d8b4cc0c1793da7936.png)
